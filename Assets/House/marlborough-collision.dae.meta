@@ -4,18 +4,12 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: SketchUp_038
-    100004: skp_camera_Last_Saved_SketchUp_View
     400000: //RootNode
-    400002: SketchUp_038
-    400004: skp_camera_Last_Saved_SketchUp_View
-    2000000: skp_camera_Last_Saved_SketchUp_View
-    2100000: material
-    2300000: SketchUp_038
-    3300000: SketchUp_038
-    4300000: SketchUp_038
-    6400000: SketchUp_038
-    2186277476908879412: ImportLogs
+    2100000: material_001
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: SketchUp_048
+    6400000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 0
@@ -64,9 +58,9 @@ ModelImporter:
     preserveHierarchy: 0
     indexFormat: 0
     secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15
+    secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVPackMargin: 20
+    secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 0

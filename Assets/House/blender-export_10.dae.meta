@@ -4,26 +4,41 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: SketchUp_043
-    100004: skp_camera_Last_Saved_SketchUp_View
     400000: //RootNode
-    400002: SketchUp_043
-    400004: skp_camera_Last_Saved_SketchUp_View
-    2000000: skp_camera_Last_Saved_SketchUp_View
-    2100000: mat_01
-    2100002: mat_03
-    2100004: mat_00
-    2100006: mat_12
-    2100008: mat_09
-    2100010: mat_07
-    2100012: mat_13
-    2100014: mat_14
-    2100016: mat_06
-    2100018: mat_02
-    2300000: SketchUp_043
-    3300000: SketchUp_043
-    4300000: SketchUp_043
-  externalObjects: {}
+    2100000: mat_12
+    2100002: mat_09
+    2100004: mat_01
+    2100006: mat_00
+    2100008: mat_32
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: SketchUp_012
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_00
+    second: {fileID: 2100000, guid: 6a52157355555374388b6db26e0d4283, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_01
+    second: {fileID: 2100000, guid: 33a9d2b7d5b37b043b93931b307c59ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_09
+    second: {fileID: 2100000, guid: a2b1af0bb13c21f4f989ffdfc73ca537, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_12
+    second: {fileID: 2100000, guid: d1a4b94f4b8c300419f15d59e6f212c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_32
+    second: {fileID: 2100000, guid: 3c5e80bb03cda9740b987a706530cc45, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

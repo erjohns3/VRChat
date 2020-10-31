@@ -4,23 +4,53 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: SketchUp_149
-    100004: skp_camera_Last_Saved_SketchUp_View
     400000: //RootNode
-    400002: SketchUp_149
-    400004: skp_camera_Last_Saved_SketchUp_View
-    2000000: skp_camera_Last_Saved_SketchUp_View
-    2100000: mat_03
-    2100002: mat_01
-    2100004: mat_12
-    2100006: mat_09
-    2100008: mat_29
-    2100010: mat_00
-    2100012: mat_16
-    2300000: SketchUp_149
-    3300000: SketchUp_149
-    4300000: SketchUp_149
-  externalObjects: {}
+    2100000: mat_12
+    2100002: mat_03
+    2100004: mat_01
+    2100006: mat_16
+    2100008: mat_00
+    2100010: mat_17
+    2100012: mat_09
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: SketchUp_028
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_00
+    second: {fileID: 2100000, guid: 6a52157355555374388b6db26e0d4283, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_01
+    second: {fileID: 2100000, guid: 33a9d2b7d5b37b043b93931b307c59ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_03
+    second: {fileID: 2100000, guid: 15797116c50e7c74eb0c5f8cd3ef4856, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_09
+    second: {fileID: 2100000, guid: a2b1af0bb13c21f4f989ffdfc73ca537, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_12
+    second: {fileID: 2100000, guid: d1a4b94f4b8c300419f15d59e6f212c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_16
+    second: {fileID: 2100000, guid: fc950f32fa5c9e24cb7e0848877ed6e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_17
+    second: {fileID: 2100000, guid: e63bd5494280b64468b78e79d7f6c354, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
