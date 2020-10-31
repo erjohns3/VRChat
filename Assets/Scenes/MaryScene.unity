@@ -155,7 +155,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 2
-  m_Color: {r: 1, g: 0.8875796, b: 0.6745283, a: 1}
+  m_Color: {r: 0.39215687, g: 0, b: 1, a: 1}
   m_Intensity: 0.3
   m_Range: 10
   m_SpotAngle: 30
@@ -3320,7 +3320,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 5
   m_Range: 20
   m_SpotAngle: 120
   m_CookieSize: 10
@@ -7148,7 +7148,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 2
-  m_Color: {r: 1, g: 0.8875796, b: 0.6745283, a: 1}
+  m_Color: {r: 0.39215687, g: 0, b: 1, a: 1}
   m_Intensity: 0.3
   m_Range: 10
   m_SpotAngle: 30
@@ -8788,6 +8788,7 @@ Transform:
   - {fileID: 1125633918}
   - {fileID: 1368867828}
   - {fileID: 955236108}
+  - {fileID: 1611654403}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12490,7 +12491,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 892589918}
-  - {fileID: 1611654403}
   - {fileID: 1948497243}
   - {fileID: 1839934670}
   m_Father: {fileID: 0}
@@ -13201,7 +13201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1611654403}
   m_Layer: 0
-  m_Name: Spot
+  m_Name: DrivewaySpotlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13214,13 +13214,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611654402}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 289101293}
-  m_Father: {fileID: 1539064077}
-  m_RootOrder: 1
+  m_Father: {fileID: 1032193348}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1631131756
 PrefabInstance:
@@ -14837,7 +14837,7 @@ Transform:
   m_Children:
   - {fileID: 1108674970}
   m_Father: {fileID: 1539064077}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1844517960
 GameObject:
@@ -15985,7 +15985,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1539064077}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1967134661
 GameObject:
