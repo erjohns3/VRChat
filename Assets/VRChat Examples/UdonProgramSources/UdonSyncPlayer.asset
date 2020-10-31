@@ -1954,7 +1954,7 @@ MonoBehaviour:
     uid: 94339ace-1350-4e56-bcd2-bea48ecae05f
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":14.0,"y":19.0,"width":200.0,"height":100.0}}'
   viewTransform:
-    position: {x: 1013.0858, y: -5245.959}
-    scale: 1
+    position: {x: 201.375, y: -358.625}
+    scale: 0.25
   version: 1.0.0
-  showAssembly: 0
+  showAssembly: 1

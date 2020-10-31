@@ -78,7 +78,7 @@ MonoBehaviour:
       nodeValues: []
     - fullName: UnityEngineGameObject.__GetComponent__SystemType__UnityEngineComponent
       uid: 98f05069-d6cc-4ea3-9c80-fcfc55cf0f0d
-      position: {x: -740, y: -260}
+      position: {x: -735.00006, y: -254.00003}
       nodeUIDs:
       - 
       - 3bc06e5a-f752-4170-9729-180ffe35f879|0
@@ -90,28 +90,23 @@ MonoBehaviour:
         stringValue: 
     - fullName: Type_VRCSDK3ComponentsVRCAvatarPedestal
       uid: 3bc06e5a-f752-4170-9729-180ffe35f879
-      position: {x: -1000, y: -260}
+      position: {x: -995.00006, y: -254.00003}
       nodeUIDs: []
       flowUIDs: []
       nodeValues: []
   graphElementData:
   - type: 2
-    uid: 60a0cb9f-f0cc-4bff-a977-fce30db3bb10
+    uid: 
     jsonData: '{"uid":"60a0cb9f-f0cc-4bff-a977-fce30db3bb10","layout":{"serializedVersion":"2","x":-1020.0,"y":-320.0,"width":607.0,"height":214.0},"containedElements":["98f05069-d6cc-4ea3-9c80-fcfc55cf0f0d","3bc06e5a-f752-4170-9729-180ffe35f879"],"title":"Get
       the VRCAvatar Pedestal on this GameObject","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
-  - type: 3
-    uid: c61eee54-c689-474a-b2af-5d3482406948
-    jsonData: '{"uid":"c61eee54-c689-474a-b2af-5d3482406948","layout":{"serializedVersion":"2","x":-40.0,"y":-300.0,"width":411.0,"height":150.0},"title":"This
-      is the node that actually changes the LocalPlayer''s avatar to the one listed
-      under ''Blueprint Id'' on the VRC Avatar Pedestal","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 5
-    uid: cddf633d-d48d-4bda-954f-1d0dd8f691c2
-    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":130.0,"width":206.0,"height":100.0}}'
+    uid: 666c79b4-25e8-4cb4-ac20-1ef1c8a880f9
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":23.0,"y":27.0,"width":206.0,"height":100.0}}'
   - type: 4
-    uid: 46d8d053-df09-42aa-b83b-0d8d8bbabc43
+    uid: a9276402-4354-414a-b849-9005ff986d10
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: 787.5366, y: 622.19214}
-    scale: 0.7561437
+    position: {x: 1219.0306, y: 415.04974}
+    scale: 0.8695652
   version: 1.0.0
   showAssembly: 0
