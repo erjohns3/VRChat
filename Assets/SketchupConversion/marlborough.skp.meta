@@ -3,19 +3,19 @@ guid: f4755bfd4f63d05438f68702f4b854dd
 SketchUpImporter:
   generateBackFace: 0
   mergeCoplanarFaces: 0
-  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d000000
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f00000030000000310000003200000033000000
   assetHash:
     serializedVersion: 2
-    Hash: 651c635f662783842000def3e5322b99
+    Hash: 314d9b6cdf2bbcfd40570156322d05f8
   longitude: -105.242139
   latitude: 40.018309
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 21.721165, y: 8.572112, z: 26.083471}
-      lookAt: {x: 16.138466, y: 3.570145, z: 17.28559}
-      up: {x: -0.23187101, y: 0.9015051, z: -0.36540997}
+      position: {x: 44.848278, y: 0.58244294, z: 23.572275}
+      lookAt: {x: 36.64164, y: -6.6781588, z: 11.146819}
+      up: {x: -0.24153367, y: 0.89884657, z: -0.36569986}
       fov: 60
       aspectRatio: 0
       orthoSize: 1
@@ -46,6 +46,9 @@ SketchUpImporter:
     100040: Component#7
     100042: Component#8
     100044: Component#9
+    100046: Component#24
+    100048: Component#26
+    100050: Component#27
     400000: //RootNode
     400002: Component#10
     400004: Component#1
@@ -69,6 +72,9 @@ SketchUpImporter:
     400040: Component#7
     400042: Component#8
     400044: Component#9
+    400046: Component#24
+    400048: Component#26
+    400050: Component#27
     2100000: _defaultMat
     2100002: mat_00
     2100004: mat_01
@@ -100,6 +106,14 @@ SketchUpImporter:
     2100056: mat_27
     2100058: mat_28
     2100060: mat_29
+    2100062: mat_30
+    2100064: mat_32
+    2100066: mat_34
+    2100068: mat_36
+    2100070: mat_31
+    2100072: mat_37
+    2100074: mat_35
+    2100076: mat_38
     2300000: //RootNode
     2300002: Component#10
     2300004: Component#1
@@ -123,6 +137,9 @@ SketchUpImporter:
     2300040: Component#7
     2300042: Component#8
     2300044: Component#9
+    2300046: Component#24
+    2300048: Component#26
+    2300050: Component#27
     3300000: //RootNode
     3300002: Component#10
     3300004: Component#1
@@ -146,6 +163,9 @@ SketchUpImporter:
     3300040: Component#7
     3300042: Component#8
     3300044: Component#9
+    3300046: Component#24
+    3300048: Component#26
+    3300050: Component#27
     4300000: Mesh marlborough
     4300002: Mesh Component#10
     4300004: Mesh Component#6
@@ -169,6 +189,9 @@ SketchUpImporter:
     4300040: Mesh Component#23
     4300042: Mesh Component#5
     4300044: Mesh Component#7
+    4300046: Mesh Component#26
+    4300048: Mesh Component#24
+    4300050: Mesh Component#27
   externalObjects: {}
   materials:
     importMaterials: 1
