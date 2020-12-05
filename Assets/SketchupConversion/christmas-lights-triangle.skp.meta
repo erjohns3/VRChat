@@ -6,19 +6,19 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: 70ebb8a1e4ce5e6b6f0dafde868737d3
+    Hash: 7db53007bb72863d2f06a024bd0d6d94
   longitude: -105.242139
   latitude: 40.018309
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: -0.6726728, y: -0.2742792, z: -0.73051584}
-      lookAt: {x: -0.02346153, y: -0.21716683, z: 1.5018845}
-      up: {x: -0.0068577663, y: 0.9996984, z: -0.023581352}
+      position: {x: 0.4055041, y: -0.13780187, z: 6.9354897}
+      lookAt: {x: -0.06393667, y: -0.13674885, z: 2.4431167}
+      up: {x: 0.00002422991, y: 1, z: 0.00023187115}
       fov: 45
       aspectRatio: 0
-      orthoSize: 47.090305
+      orthoSize: 18.969582
       isPerspective: 0
     scenes: []
   serializedVersion: 23
@@ -32,6 +32,12 @@ SketchUpImporter:
     2100008: '[0065_Lime]'
     2100010: '[0046_Gold]'
     2100012: '[0020_Red]'
+    2100014: mat_06
+    2100016: mat_07
+    2100018: mat_08
+    2100020: mat_09
+    2100022: mat_10
+    2100024: mat_11
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh christmas-lights-triangle
