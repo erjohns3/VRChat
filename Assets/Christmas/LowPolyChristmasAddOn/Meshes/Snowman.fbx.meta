@@ -13,12 +13,37 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cone
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hut
+    second: {fileID: 2100000, guid: 43eb94fe1320b1c4493355bb204124dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Karrot
+    second: {fileID: 2100000, guid: eb3890fd4c44fc04d8d79c1583d26680, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rocks
+    second: {fileID: 2100000, guid: 983bf6baa9f22d5489fec6deaca99a1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Snow
+    second: {fileID: 2100000, guid: 2560d8848be8080469dd7ad964f74a3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: fd06a9055d7309448bd84e3d47286a3a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialSearch: 0
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -53,7 +78,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
@@ -61,9 +86,9 @@ ModelImporter:
     preserveHierarchy: 0
     indexFormat: 0
     secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15.000001
+    secondaryUVAreaDistortion: 15
     secondaryUVHardAngle: 88
-    secondaryUVPackMargin: 4
+    secondaryUVPackMargin: 64
     useFileScale: 1
     previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 0

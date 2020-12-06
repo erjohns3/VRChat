@@ -11,12 +11,27 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cylinder.007
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark Leaves.001
+    second: {fileID: 2100000, guid: a9f0d73b3cd19c6418ac4366922d2ef0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Snow.001
+    second: {fileID: 2100000, guid: eec19edbdbd711246b8030754bba91a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood.002
+    second: {fileID: 2100000, guid: 9186fba1e74ca5840a2ed3c96a2795c4, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialSearch: 0
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -51,7 +66,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
