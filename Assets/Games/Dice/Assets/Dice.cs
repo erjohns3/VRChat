@@ -25,6 +25,7 @@ using System;
 
         private InputField OutputUwU;
         [UdonSynced] private bool Go = false;
+    private bool giveVelocity = false;
 
         private void Start()
         {
@@ -48,6 +49,15 @@ using System;
             if (Go == true)
             {
                 Debug.Log("Go dice");
+            if(giveVelocity)
+            {
+                Debug.Log("spin dice");
+                giveVelocity = false;
+                Vector3 angleV = DiceBoiuwu.angularVelocity;
+                angleV.x = angleV.x * UnityEngine.Random.Range(1, 2);
+                angleV.y = angleV.y * UnityEngine.Random.Range(1, 2);
+                DiceBoiuwu.angularVelocity = angleV;
+            }
                 DiceBoiSpeed = Mathf.Round((DiceBoiuwu.velocity.magnitude) * 100);
                 if (DiceBoiSpeed <= 1)
                 {
@@ -81,13 +91,15 @@ using System;
         {
             Debug.Log("Dropping dice");
            Go = true;
+        giveVelocity = true;
         }
 
         public void RespawnDiceboi()
         {
             Debug.Log("Respawning 0");
             Go = false;
-            Networking.SetOwner(Networking.LocalPlayer, DiceBoi);
+        giveVelocity = false;
+        Networking.SetOwner(Networking.LocalPlayer, DiceBoi);
             DiceBoi.transform.position = DiceBoiSpawn;
 
         }
@@ -96,6 +108,7 @@ using System;
     {
         Debug.Log("Respawning 1");
         Go = false;
+        giveVelocity = false;
         Networking.SetOwner(Networking.LocalPlayer, DiceBoi);
         DiceBoi.transform.position = button1.transform.position + new Vector3(0, 0.5f, 0);
     }
@@ -104,6 +117,7 @@ using System;
     {
         Debug.Log("Respawning 2");
         Go = false;
+        giveVelocity = false;
         Networking.SetOwner(Networking.LocalPlayer, DiceBoi);
         DiceBoi.transform.position = button2.transform.position + new Vector3(0, 0.5f, 0);
     }
@@ -112,6 +126,7 @@ using System;
     {
         Debug.Log("Respawning 3");
         Go = false;
+        giveVelocity = false;
         Networking.SetOwner(Networking.LocalPlayer, DiceBoi);
         DiceBoi.transform.position = button3.transform.position + new Vector3(0, 0.5f, 0);
     }
