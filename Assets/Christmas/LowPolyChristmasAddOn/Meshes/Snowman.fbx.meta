@@ -13,12 +13,37 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cone
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hut
+    second: {fileID: 2100000, guid: 628b3698273c1b843be6dd74efed12a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Karrot
+    second: {fileID: 2100000, guid: 52bab668e1f323b40b1738e6d0a17043, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rocks
+    second: {fileID: 2100000, guid: 33c0168250138d24499f9d6ab69fd30f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Snow
+    second: {fileID: 2100000, guid: f5226e576c540d94db75d6185364201a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 49198f02c897be842ad495181b5c03af, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialSearch: 0
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
