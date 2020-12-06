@@ -15,7 +15,42 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: SketchUp
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_06
+    second: {fileID: 2100000, guid: d2dae238fa0b8e8419a3a616287f124d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_07
+    second: {fileID: 2100000, guid: 69e267f19e40dfb429cc9f3d3d317150, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_08
+    second: {fileID: 2100000, guid: dc018dcd44a3113429363d578485397d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_09
+    second: {fileID: 2100000, guid: 5183ebb4ab797fc41aec18b52eb33369, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_10
+    second: {fileID: 2100000, guid: ddcbaa74aa7a64f419fb96d15ef3055f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_11
+    second: {fileID: 2100000, guid: d37fac0ae431f154f9cab90eb53d77db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material
+    second: {fileID: 2100000, guid: 1f323685da3f2d541bc5f43cc055f9c7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -55,7 +90,7 @@ ModelImporter:
     importCameras: 0
     importLights: 0
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

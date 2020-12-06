@@ -18,27 +18,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Hut
-    second: {fileID: 2100000, guid: 628b3698273c1b843be6dd74efed12a6, type: 2}
+    second: {fileID: 2100000, guid: 43eb94fe1320b1c4493355bb204124dd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Karrot
-    second: {fileID: 2100000, guid: 52bab668e1f323b40b1738e6d0a17043, type: 2}
+    second: {fileID: 2100000, guid: eb3890fd4c44fc04d8d79c1583d26680, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Rocks
-    second: {fileID: 2100000, guid: 33c0168250138d24499f9d6ab69fd30f, type: 2}
+    second: {fileID: 2100000, guid: 983bf6baa9f22d5489fec6deaca99a1b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Snow
-    second: {fileID: 2100000, guid: f5226e576c540d94db75d6185364201a, type: 2}
+    second: {fileID: 2100000, guid: 2560d8848be8080469dd7ad964f74a3a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wood
-    second: {fileID: 2100000, guid: 49198f02c897be842ad495181b5c03af, type: 2}
+    second: {fileID: 2100000, guid: fd06a9055d7309448bd84e3d47286a3a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -78,7 +78,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
