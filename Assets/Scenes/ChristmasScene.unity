@@ -16844,7 +16844,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &631542746
 Transform:
@@ -16877,14 +16877,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 23458a56a47b144179823b5e188eb3e9, type: 3}
-  - {fileID: 2100002, guid: 23458a56a47b144179823b5e188eb3e9, type: 3}
-  - {fileID: 2100004, guid: 23458a56a47b144179823b5e188eb3e9, type: 3}
-  - {fileID: 2100006, guid: 23458a56a47b144179823b5e188eb3e9, type: 3}
-  - {fileID: 2100008, guid: 23458a56a47b144179823b5e188eb3e9, type: 3}
-  - {fileID: 2100010, guid: 23458a56a47b144179823b5e188eb3e9, type: 3}
-  - {fileID: 2100012, guid: 23458a56a47b144179823b5e188eb3e9, type: 3}
-  - {fileID: 2100014, guid: 23458a56a47b144179823b5e188eb3e9, type: 3}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16907,7 +16900,7 @@ SkinnedMeshRenderer:
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
-  m_SkinnedMotionVectors: 1
+  m_SkinnedMotionVectors: 0
   m_Mesh: {fileID: 4300000, guid: 23458a56a47b144179823b5e188eb3e9, type: 3}
   m_Bones:
   - {fileID: 825171376}
