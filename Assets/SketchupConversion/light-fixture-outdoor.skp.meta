@@ -6,16 +6,16 @@ SketchUpImporter:
   selectedNodes: 0000000001000000
   assetHash:
     serializedVersion: 2
-    Hash: 7262d0edf8f9f6117796c947c94f50a7
+    Hash: b4e485d21fc76b9576d4963a0ea0f6aa
   longitude: -105.242139
   latitude: 40.018309
   northCorrection: -0
   fileUnit: 0
   sketchUpImportData:
     defaultCamera:
-      position: {x: 0.21903186, y: 0.3315911, z: -0.569398}
-      lookAt: {x: -7.2058973, y: -6.3553963, z: 21.843443}
-      up: {x: -0.085694015, y: 0.9621557, z: 0.2586754}
+      position: {x: 0.17944261, y: -0.4852141, z: 0.22397709}
+      lookAt: {x: -0.007229199, y: 0.1840749, z: -0.01894356}
+      up: {x: 0.5540363, y: 0.41620907, z: 0.7209811}
       fov: 35
       aspectRatio: 0
       orthoSize: 1
@@ -27,6 +27,8 @@ SketchUpImporter:
     400000: //RootNode
     2100000: _defaultMat
     2100002: mat_06
+    2100004: mat_08
+    2100006: mat_1
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh light-fixture-outdoor

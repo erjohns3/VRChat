@@ -67,7 +67,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6000
   m_UseColorTemperature: 0
-  m_ShadowRadius: 0.02
+  m_ShadowRadius: 0.04
   m_ShadowAngle: 0
 --- !u!1 &5094528779821978597
 GameObject:
