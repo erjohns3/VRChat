@@ -6,6 +6,9 @@ using VRC.Udon;
 
 public class BadmintonBall : UdonSharpBehaviour
 {
+    public float bounce;
+    public float boost;
+
     private Vector3 InitialPosition;
     private Quaternion InitialRotation;
     void Start()
@@ -20,8 +23,13 @@ public class BadmintonBall : UdonSharpBehaviour
         if (collider.enabled && collider.material.name == "racket (Instance)")
         {
             Vector3 input = GetComponent<Rigidbody>().velocity;
-            Vector3 boost = Vector3.Dot(Vector3.Normalize(collider.attachedRigidbody.velocity), collider.transform.forward) * collider.attachedRigidbody.velocity;
-            GetComponent<Rigidbody>().velocity = (input - 2 * Vector3.Dot(collider.transform.forward, input) * collider.transform.forward) + boost;
+            Vector3 output = bounce * (input - 2 * Vector3.Dot(collider.transform.forward, input) * collider.transform.forward);
+            float mult = Vector3.Dot(Vector3.Normalize(collider.attachedRigidbody.velocity), collider.transform.forward);
+            if (mult > 0)
+            {
+                output += boost * mult * collider.attachedRigidbody.velocity;
+            }
+            GetComponent<Rigidbody>().velocity = output;
         }
     }
 
