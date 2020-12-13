@@ -27,7 +27,7 @@ public class BadmintonBall : UdonSharpBehaviour
             float mult = Vector3.Dot(Vector3.Normalize(collider.attachedRigidbody.velocity), collider.transform.forward);
             if (mult > 0)
             {
-                output += boost * mult * collider.attachedRigidbody.velocity;
+                output += boost * mult * collider.transform.forward;
             }
             GetComponent<Rigidbody>().velocity = output;
         }
